@@ -7,8 +7,8 @@ This repository contains a collection of 5 practical projects implemented for th
 - [Overview](#overview)
 - [Project Details](#project-details)
   - [Project 1: Search Agents](#1-search-agents-in-pacman-ca1)
-  - [Project 2: [Insert Topic]](#2-project-2-title-ca2)
-  - [Project 3: [Insert Topic]](#3-project-3-title-ca3)
+  - [Project 2: Evolutionary Algorithms](#2-image-analysis-with-evolutionary-algorithms-ca2)
+  - [Project 3: Classification](#3-classification--decision-trees-ca3)
   - [Project 4: Deep Learning with PyTorch](#4-deep-learning--neural-networks-ca4)
   - [Project 5: Unsupervised Learning](#5-unsupervised-learning-ca5)
 - [Technologies](#-technologies)
@@ -37,21 +37,22 @@ This project involves designing intelligent agents for the classic **Pacman** ga
   - Weighted A* Search
 - **Key Concepts:** Graph Traversal, Heuristic Design, Optimality vs. Complexity.
 
-### 2. [Project 2 Title] (CA2)
-*(Please update this section. Based on typical AI curriculums, this might be **Genetic Algorithms**, **Game Playing (Minimax)**, or **Constraint Satisfaction Problems**)*.
+### 2. Image Analysis with Evolutionary Algorithms (CA2)
+**Topic:** Evolutionary Computation & Optimization
+This project utilizes **Genetic Algorithms (GA)** to solve an optimization problem related to image analysis or reconstruction. The problem is modeled using a population of individuals that evolve over generations.
 
-**Topic:** [e.g., Genetic Algorithms / Game Theory]  
-[Brief description of what you solved in this project. Example: "Implemented an evolutionary algorithm to solve the N-Queens problem" or "Designed a Minimax agent with Alpha-Beta pruning for a board game".]
+- **Methodology:** Implemented Selection, Crossover, and Mutation operators to evolve solutions.
+- **Fitness Function:** Designed to minimize dissimilarity between image segments (Fitness = 1 / Σ Dissimilarity).
+- **Key Concepts:** Genetic Algorithms, Chromosome Representation, Fitness Landscape, Selection Strategies.
 
-- **Key Concepts:** [e.g., Selection, Crossover, Mutation / Minimax, Alpha-Beta Pruning]
+### 3. Classification & Decision Trees (CA3)
+**Topic:** Supervised Learning (Classification)
+A complete pipeline for a classification task, utilizing decision-based logic (indicated by **Gini Impurity**). The project involves preprocessing data and building a model to predict target labels accurately.
 
-### 3. [Project 3 Title] (CA3)
-*(Please update this section. This is likely **Probabilistic Reasoning (Bayesian Networks)**, **HMMs**, or **Logic**)*.
-
-**Topic:** [e.g., Probabilistic Reasoning / NLP]  
-[Brief description of the project. Example: "Used Bayesian Networks to predict events based on uncertain data" or "Implemented Hidden Markov Models for speech/text recognition".]
-
-- **Key Concepts:** [e.g., Bayesian Networks, Sampling, Inference, HMM]
+- **Process:**
+  - **Training:** Splitting data into Training and Validation sets.
+  - **Evaluation:** Using a **Confusion Matrix** to calculate metrics like Accuracy, Precision, and Recall.
+- **Key Concepts:** Gini Impurity, Overfitting/Underfitting, Confusion Matrix, Model Validation.
 
 ### 4. Deep Learning & Neural Networks (CA4)
 **Topic:** Neural Networks, CNNs, & Sentiment Analysis  
@@ -87,44 +88,7 @@ The projects are implemented using **Python** and the following libraries:
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557c" alt="Matplotlib">
 </p>
 
----
-
-## 🚀 Installation & Usage
-
-To run these projects, ensure you have Python installed. You can clone the repository and install the dependencies:
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/AI-Course-Projects.git
-
-# Navigate to the project directory
-cd AI-Course-Projects
-
-# Install dependencies
-pip install numpy pandas matplotlib torch
-
-Each project is located in its own folder. To run a specific project (e.g., CA1):
-
-bash
-cd AI-F04-CA1
-python main.py  # or run the .ipynb notebook
-
----
-
-## 📊 Results
-
-> *Add screenshots or charts here! For example, a GIF of your Pacman agent winning, or a Loss/Accuracy plot from the Deep Learning project.*
-
----
 
 ## 📬 Contact
 
-Created by **[Your Name]** as part of the University AI Course.
-
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [Your Email Address]
-
-
-### 💡 Tips to make it stand out:
-1.  **Fill in CA2 & CA3:** Check your actual code folder for CA2 and CA3. If CA2 involves "Chromosomes" or "Population", it's **Genetic Algorithms**. If it involves "Game", "Player", or "Board", it's **Adversarial Search**.
-2.  **Add Images:** In the `Results` section, upload 1-2 images (like a plot from the PyTorch project or a screenshot of the Pacman game) to your repo and link them. This increases engagement significantly.
-3.  **Update Links:** Don't forget to replace `[Your Name]`, `[Your LinkedIn]`, and the `git clone` URL with your actual data.
+Created by **Shayan Maleki** as part of the University Course.
