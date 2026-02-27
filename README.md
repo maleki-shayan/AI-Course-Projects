@@ -12,7 +12,6 @@ This repository contains a collection of 5 practical projects implemented for th
   - [Project 4: Deep Learning with PyTorch](#4-deep-learning--neural-networks-ca4)
   - [Project 5: Unsupervised Learning](#5-unsupervised-learning-ca5)
 - [Technologies](#-technologies)
-- [Installation & Usage](#-installation--usage)
 - [Results](#-results)
 
 ---
